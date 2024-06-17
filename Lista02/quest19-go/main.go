@@ -1,16 +1,22 @@
 package main
 
-//MÍNIMO MULTIPLO COMUM
+// N AO CUBO
+import (
+	"fmt"
+)
 
-import "fmt"
+func main() {
+	var m, p int
+	fmt.Scanln(&m)
 
-func main(){
+	for n := 1; n <= m; n++ {
+		fmt.Printf("%d*%d*%d = ", n, n, n)
+		p = (n * n) - (n - 1)
+		fmt.Printf("%v", p)
+		for i := 1; i < n; i++ {
+			fmt.Printf("+%v", p+i*2)
+		}
+		fmt.Printf("\n")
+	}
 
-	fmt.Println("DIGITE OS NÚMEROS")
-
-	var num1,num2,num3 int
-
-	fmt.Scan(&num1,&num2,&num3)
-
-	
 }

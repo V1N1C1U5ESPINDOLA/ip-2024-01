@@ -18,7 +18,7 @@ func mmc3(a, b, c int) int {
 }
 
 func main() {
-	fmt.Println("DIGITE 3 NÚMEROS INTEIROS")
+	fmt.Println("DIGITE TRÊS NÚMEROS INTEIROS")
 	var (
 		num1, num2, num3 int
 	)
