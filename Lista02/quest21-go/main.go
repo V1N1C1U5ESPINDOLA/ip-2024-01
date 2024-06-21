@@ -11,9 +11,9 @@ func desordenadamente(x []float64) string {
 		}
 	}
 	if sus == true {
-		return "ORDENADA" // se sus ainda for verdadeiro, a sequência é ordenada
+		return "ORDENADA"
 	}
-	return "DESORDENADA" // se sus é falso, a sequência é desordenada
+	return "DESORDENADA"
 }
 
 func main() {
